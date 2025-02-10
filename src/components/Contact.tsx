@@ -1,6 +1,5 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { Mail, Send, ExternalLink, Sparkles, MessageSquare } from "lucide-react";
+import { Mail, Send, ExternalLink, MessageSquare } from "lucide-react";
 
 const Contact = () => {
   const containerVariants = {

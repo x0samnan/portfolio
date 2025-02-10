@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { Briefcase, Star, Calendar, ArrowUpRight, Users, Target, Trophy } from 'lucide-react';
+import { Briefcase, Calendar, ArrowUpRight, Users, Target, Trophy } from 'lucide-react';
 
 const Experience = () => {
   const containerVariants = {
@@ -88,7 +87,7 @@ const Experience = () => {
           {/* Timeline Line */}
           <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-blue-500/50 via-purple-500/50 to-transparent" />
 
-          {experiences.map((exp, index) => (
+          {experiences.map((exp) => (
             <motion.div
               key={exp.company}
               variants={itemVariants}

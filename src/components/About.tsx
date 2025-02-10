@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Coffee, Terminal, Brain, Star, Code2, Rocket, Users, GitBranch } from 'lucide-react';
 
