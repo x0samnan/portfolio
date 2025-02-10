@@ -53,16 +53,17 @@ const ResumePage = () => {
         </div>
 
         <div 
-          className={`w-full h-[800px] bg-white/5 rounded-xl overflow-hidden relative 
+          className={`w-full h-[1125px] bg-white/5 rounded-xl overflow-hidden relative 
                       ${isBlurred ? 'backdrop-blur-xl' : 'backdrop-blur-none'}`}
         >
-          {/* Embed PDF Viewer */}
-          <iframe 
-            src="/resume.pdf" 
-            className={`w-full h-full ${isBlurred ? 'filter blur-lg' : ''}`}
-            title="Resume PDF"
+          {/* Embed Resume Image */}
+          <img 
+            src="/resume.jpg"  
+            className={`w-full h-auto ${isBlurred ? 'filter blur-lg' : ''}`} 
+            alt="Resume" 
           />
-          
+
+
           {isBlurred && (
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center">

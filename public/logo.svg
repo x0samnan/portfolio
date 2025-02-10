@@ -1,0 +1,42 @@
+<svg
+  width="300"
+  height="300"
+  viewBox="0 0 300 300"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background -->
+  <rect width="300" height="300" fill="#030014" />
+
+  <!-- "SS" Monogram -->
+  <text
+    x="50%"
+    y="50%"
+    font-family="Orbitron, sans-serif"
+    font-size="100"
+    font-weight="bold"
+    text-anchor="middle"
+    fill="url(#gradient)"
+    dominant-baseline="middle"
+  >
+    SS
+  </text>
+
+  <!-- Coding Symbol (Optional) -->
+  <text
+    x="50%"
+    y="75%"
+    font-family="Poppins, sans-serif"
+    font-size="24"
+    text-anchor="middle"
+    fill="white"
+    opacity="0.8"
+  >
+  </text>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db" />
+      <stop offset="100%" stop-color="#e91e63" />
+    </linearGradient>
+  </defs>
+</svg>
