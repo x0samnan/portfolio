@@ -58,7 +58,7 @@ const Footer = () => {
             <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-400 opacity-0 -translate-x-2 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300" />
           </a>
           <a 
-            href="https://linkedin.com/in/samnansiddique" 
+            href="https://linkedin.com/in/x0samnan" 
             target="_blank" 
             className="group flex items-center gap-2 w-full sm:w-auto px-4 py-2 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 
                      hover:border-purple-500/30 transition-all duration-300"
