@@ -39,7 +39,7 @@ const Experience = () => {
       tech: ["React", "Node.js", "Vite", "Javascript", "TailwindCSS"]
     },
     {
-      company: "Digital Solutions Co",
+      company: "Shivam Group Pvt Ltd",
       role: "Full Stack Developer",
       period: "2020 - 2022",
       description: "Developed and maintained multiple client projects using modern web technologies.",
