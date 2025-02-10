@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { Download, EyeOff, FileText } from 'lucide-react';
-import resumePDF from '../assets/resume.pdf';
 
 const ResumePage = () => {
   const [isBlurred, setIsBlurred] = useState(true);
 
   const handleDownload = () => {
-    window.open(resumePDF, '_blank');
+    window.open('/resume.pdf', '_blank');
   };
 
   return (
@@ -59,7 +58,7 @@ const ResumePage = () => {
         >
           {/* Embed PDF Viewer */}
           <iframe 
-            src={resumePDF} 
+            src="/resume.pdf" 
             className={`w-full h-full ${isBlurred ? 'filter blur-lg' : ''}`}
             title="Resume PDF"
           />
