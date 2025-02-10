@@ -40,7 +40,7 @@ const About = () => {
   ];
 
   return (
-    <section className="relative py-24 bg-gradient-to-b from-gray-900 via-gray-800 to-black overflow-hidden">
+    <section id='about' className="relative py-24 bg-gradient-to-b from-gray-900 via-gray-800 to-black overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.1),transparent_50%)]" />
@@ -80,7 +80,7 @@ const About = () => {
                 Hello! I'm a passionate Full Stack Developer with a deep love for creating elegant solutions to complex problems. With 2+ years of experience in web development, I specialize in building high-performance applications that deliver exceptional user experiences.
               </p>
               <p className="text-lg leading-relaxed text-gray-300">
-                My journey in tech started with a Computer Science degree, and I've since worked with startups and established companies, helping them scale their applications and improve their technical infrastructure.
+                My journey in tech started with a Open Source Exploration, and I've since worked with startups and established companies, helping them scale their applications and improve their technical infrastructure.
               </p>
             </div>
             

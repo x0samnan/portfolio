@@ -53,7 +53,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className="relative py-24 bg-gradient-to-b from-gray-900 via-gray-800 to-black overflow-hidden">
+    <section id='experience' className="relative py-24 bg-gradient-to-b from-gray-900 via-gray-800 to-black overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(59,130,246,0.1),transparent_50%)]" />

@@ -63,7 +63,7 @@ const Hero = () => {
   ];
   
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center bg-[#030014] text-white px-4 py-16 overflow-hidden">
+    <section id='home' className="relative min-h-screen flex flex-col items-center justify-center bg-[#030014] text-white px-4 py-16 overflow-hidden">
       {/* Enhanced Background with Multiple Gradients */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(59,130,246,0.08),transparent_50%)]" />
